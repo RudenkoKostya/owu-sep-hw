@@ -56,16 +56,73 @@ console.log(arr);
 // }
 
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+// let arrayType = [123, 'hello', true, 'man', 849, false, 'chica', 999, true, 'kkkk'];
+// for (let i = 0; i < arrayType.length; i++){
+//     if (typeof arrayType[i] === typeof true){
+//         console.log(arrayType[i]);
+//     }
+// }
 // - Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки числові елементи
+// let arrType1 = [123, 'Jkv', true, 878, 'yiy', false, 574, 'lssqp',true, 234];
+// for (let i = 0; i < arrType1.length; i++ ){
+//     if (typeof  arrType1[i] === typeof i) {
+//         console.log(arrType1[i]);
+//     }
+// }
 // - Створити масив з 10 елементів числового, стрічкового і булевого типу. За допомогою if та typeof вивести тільки рядкові елементи
+// let arrType2 = ['sdfkjdfj', 8483, false, 99834, 'dkjfsliv', 98, true, false, 'iwr', 'hello', 842];
+// for (let i = 0; arrType2.length; i++) {
+//     if (typeof arrType2[i] === typeof  ' '){
+//         console.log(arrType2[i]);
+//     }
+// }
 // - Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+// let arrayZero = [];
+// arrayZero[0] = 'one';
+// arrayZero[1] = 'two';
+// arrayZero[2] = 'three';
+// arrayZero[3] = 'four';
+// arrayZero[4] = 'five';
+// arrayZero[5] =  true;
+// arrayZero[6] = 24;
+// arrayZero[7] = 988;
+// arrayZero[8] = false;
+// arrayZero[9] = 345;
+//
+// for (let i = 0; i < arrayZero.length; i++) {
+//     console.log(arrayZero[i]);
+// }
 // - Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// for (let i = 0;i <= 10; i++) {
+//     document.write(i);
+//     console.log(i);
+// }
 // - Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// for (let i = 0; i <= 100; i++) {
+//     console.log(i);
+//     document.write(i + ' ');
+// }
 // - Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+// for (let i = 0; i <= 100; i = i + 2){
+//     console.log(i);
+//     document.write(i + ' ');
+// }
 // - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
-// - Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+// for (let i = 0; i <= 100; i++){
+//     if (i % 2 === 0 && i !== 0) {
+//         console.log(i);
+//         document.write(i);
+//     }
+// }
 // - Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
+for (let i = 0; i<=100;i++){
+    if (i % 2 > 0) {
+        console.log(i);
+        document.write(i);
+    }
+}
 // - Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
+
 // - Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
 // Додатково
 // - Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
